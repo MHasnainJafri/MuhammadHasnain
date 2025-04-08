@@ -13,6 +13,9 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: "/MuhammadHasnain",
+  output: "export",
+  reactStrictMode: true,
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -27,6 +30,8 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+  output: 'export',  // This should be inside the nextConfig object
+  basePath: '/MuhammadHasnain',  // Set this to your repository name or path
 }
 
 if (userConfig) {
@@ -48,4 +53,4 @@ if (userConfig) {
   }
 }
 
-export default nextConfig
+export default nextConfig  // Only one default export is allowed
