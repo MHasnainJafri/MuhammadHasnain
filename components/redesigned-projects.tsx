@@ -83,7 +83,7 @@ const projects = [
       "Architected a multi-service social media platform with Laravel backend APIs and Flutter mobile applications. Developed APIs for features like user profiles, real-time community interactions, and video shorts. Integrated service booking and directory listings, enabling businesses to manage their offerings within the platform.",
     technologies: ["Laravel", "Flutter", "MySQL", "Redis", "Docker", "CI/CD", "Nginx"],
     imageUrl: "/placeholder.svg?height=600&width=800",
-    demoUrl: "https://dev.xoblack.cmo",
+    demoUrl: "https://dev.xoblack.com",
     githubUrl: "https://github.com/MHasnainJafri",
     color: "from-green-600 to-teal-600",
     featured: false,
